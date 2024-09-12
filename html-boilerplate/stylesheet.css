@@ -1,5 +1,27 @@
 .principal {
     background-color: blue;
     color: red;
-    caret-color: red;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Comic Sans MS"
+}
+
+h1 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+a {
+    text-align: right;
+    padding-left: 100px;
+}
+
+a:link {
+    color: red;
+}
+a:visited {
+    color: red;
 }
