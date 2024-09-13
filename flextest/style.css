@@ -1,0 +1,48 @@
+.mainbox {
+    display: flex;
+    background-color: lightblue;
+    margin: auto;
+    padding: 20px;
+    border: 10px solid blue;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+}
+#box1 {
+    display: flex;
+    flex:1 1 auto;
+    background-color: burlywood;
+    margin: 10px;
+    border: 10px brown solid;
+    height: auto;
+    min-height: 500px;
+}
+
+#box2 {
+    flex: 1;
+    background-color: crimson;
+    border: 10px black solid;
+    margin: 10px;
+    width: 300px;
+    align-self: center;
+}
+
+#box3 {
+    display: flex;
+    margin: auto;
+    height: 500px;
+    border: 10px blue solid;
+    background-color: darkslateblue;
+}
+
+#box4 {
+    flex: 1;
+    background-color: tomato;
+    border: 10px red solid;
+    margin: 20px;
+}
+
+#box1.special {
+    flex: 2 1 0%;
+    flex-direction: column;
+}

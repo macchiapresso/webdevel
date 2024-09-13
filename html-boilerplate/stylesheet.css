@@ -1,13 +1,43 @@
 .principal {
-    background-color: blue;
-    color: red;
+    background-color: burlywood;
+    color: white;
     font-weight: bold;
-    font-size: 24px;
-    font-family: "Comic Sans MS"
+    font-family: "Monospace";
+    margin: 100px;
 }
 
-h1 {
+.principal h1 {
+    border: 5px black solid;
     text-align: center;
+    font-size: 72px;
+}
+
+.main {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+    background-color: black;
+    border-radius: 50px;
+    border: 10px white dotted;
+}
+
+.links {
+    font-size: 24px;
+    flex: 1;
+    margin: 10px;
+    width: 500px;
+    align-self: center;
+    justify-self: center;
+}
+.image img {
+    flex: 1;
+    width: auto;
+    margin: 10px;
+    padding: 20px;
+    align-self: center;
+    padding-right: 50px;
+    border-radius: 100px;
 }
 
 h6 {
@@ -16,12 +46,12 @@ h6 {
 
 a {
     text-align: right;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 a:link {
-    color: red;
+    color: white;
 }
 a:visited {
-    color: red;
+    color: white;
 }
