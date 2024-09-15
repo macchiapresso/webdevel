@@ -1,8 +1,9 @@
 body {
-    background-color: #1a1918;
     font-family: Roboto;
-    color: whitesmoke;
     margin: auto;
+    background-color: black;
+    border-color: white;
+    color: white;
 }
 
 #struct {
@@ -17,7 +18,7 @@ body {
     padding: 20px;
     min-height: 500px;
     max-height: 500px;
-    border: whitesmoke solid 20px;
+    border: solid 20px;
     border-radius: 50px;
     align-self: center;
     align-content: center;
@@ -29,6 +30,7 @@ body {
 }
 
 #head {
+    display: flex;
     background-color: #292725;
     padding: 10px;
     margin: 0;
@@ -37,6 +39,10 @@ body {
     font-size: 32px;
     border: 5px white solid;
     margin-bottom: 50px;
+}
+
+#head a {
+    flex: 8 1 0;
 }
 
 #foot {
@@ -48,6 +54,7 @@ body {
     font-size: 32px;
     border: 5px white solid;
     margin-top: 50px;
+    color: white;
 }
 
 a:link {
@@ -56,6 +63,12 @@ a:link {
 
 a:visited {
     color: white;
+}
+
+#theme {
+    flex: 1;
+    margin: auto;
+    justify-self: end;
 }
 
 .pan1 {
