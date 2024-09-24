@@ -51,3 +51,18 @@ function lastLetter(word) {
     return word[word.length - 1];
 }
 console.log(lastLetter("Pneumoultramicroscopicsilicovolcanoconiosis"));
+
+const matrixOne = math.matrix([
+    [1, 3, 5],
+    [2, 7, 9], 
+    [3, 2, 2],
+    [2, 2, 3]
+]);
+
+const matrixTwo = math.matrix([
+    [2, 9, 3, 5],
+    [1, 2, 0, 6],
+    [5, 3, 5, 0]
+]);
+
+console.log("Matrix operation: " + math.multiply(matrixOne, matrixTwo));
